@@ -2,3 +2,7 @@
   width: 1440px;
   margin: 0 auto;
 }
+.header {
+  height: 300px;
+  background: #321456;
+}
