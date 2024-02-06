@@ -2,7 +2,34 @@
   width: 1440px;
   margin: 0 auto;
 }
+/* Header section */
 .header {
   height: 300px;
-  background: #321456;
+}
+.header-container {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  height: 300px;
+  background: #a0522d;
+}
+.nav-links {
+  display: flex;
+  gap: 50px;
+  width: 400px;
+  margin: 0;
+  list-style-type: none;
+}
+.nav-link {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px 15px 10px;
+  border: dashed 2px #fff;
+  border-radius: 10px;
+}
+.nav-link:hover {
+  position: relative;
+  top: 3px;
+  transition: all 4s;
 }
