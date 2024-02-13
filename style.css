@@ -70,3 +70,26 @@ body {
 .features-list {
   line-height: 1.5em;
 }
+/* Screenshot section */
+.screenshots-section {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.screenshot-big {
+  width: 920px;
+  height: 540px;
+  border: #ffe4b5;
+}
+.screenshot-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+.screenshot-small {
+  width: 250px;
+  height: 150px;
+  border: #ffdab9;
+}
