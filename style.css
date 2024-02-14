@@ -93,3 +93,19 @@ body {
   height: 150px;
   border: #ffdab9;
 }
+
+/* Footer section */
+.footer {
+  margin-top: 50px;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  background: #4169e1;
+}
+.copyright-info {
+  font-size: 0.75rem;
+  color: #fff;
+}
