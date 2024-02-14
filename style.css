@@ -130,9 +130,17 @@ body {
 }
 
 /* Gallery page */
+.hide-arrow {
+  display:none;
+}
+.left-arrow,
+.right-arrow {
+  cursor: pointer;
+}
 .gallery-container {
   display: flex;
   justify-content: center;
+  margin: 30px 0;
 }
 .object {
   display: flex;
