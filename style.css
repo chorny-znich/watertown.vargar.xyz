@@ -109,3 +109,22 @@ body {
   font-size: 0.75rem;
   color: #fff;
 }
+
+/* Blog page */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.article-header {
+  text-align: center;
+}
+.article-image {
+  margin: 0 30px 20px 0;
+}
+.article-image-left {
+  float: left;
+}
+.article-date {
+  text-align: right;
+}
