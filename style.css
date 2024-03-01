@@ -80,19 +80,26 @@ body {
   gap: 30px;
 }
 .screenshot-big {
-  width: 920px;
+  width: 720px;
   height: 540px;
   border: #ffe4b5;
+  box-shadow: 1px 3px 3px #4169e1;
 }
 .screenshot-container {
   display: flex;
   justify-content: space-between;
   width: 1200px;
+  padding: 20px 50px;
+  border: dashed 2px #4169e1;
+  border-radius: 50px;
+  box-shadow: 1px 3px 3px #4169e1;
 }
 .screenshot-small {
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 120px;
   border: #ffdab9;
+  box-shadow: 1px 3px 3px #4169e1;
+  cursor: pointer;
 }
 
 /* Footer section */
